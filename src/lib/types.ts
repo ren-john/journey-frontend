@@ -59,3 +59,11 @@ export interface StrapiResponse<T> {
     };
   };
 }
+
+export interface LifePhase {
+  name: string;
+  ageRange: string;
+  color: string;
+  bgColor: string;
+}
+
